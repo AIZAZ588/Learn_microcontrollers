@@ -23,7 +23,7 @@ void LCD_CURSOR(char col,char line);
 void main(void) {
     LCD_INT();
     LCD_TEXT("WELCOME0");
-    LCD_CURSOR(4,2);
+    LCD_CURSOR(1,2);
     LCD_TEXT("AIZAZ0");
             
     while (1) {
